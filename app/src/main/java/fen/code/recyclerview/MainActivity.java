@@ -38,5 +38,12 @@ public class MainActivity extends AppCompatActivity {
         LinearLayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
         layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
 
+        /* setup RecyclerView */
+        recyclerView.setHorizontalScrollBarEnabled(false);
+        recyclerView.setVerticalScrollBarEnabled(false);
+        recyclerView.setLayoutManager(layoutManager);
+
+        /* setAdapter RecyclerView */
+        recyclerView.setAdapter(tutorialAdapter);
     }
 }
