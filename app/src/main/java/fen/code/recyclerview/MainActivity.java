@@ -27,6 +27,15 @@ public class MainActivity extends AppCompatActivity {
         list.add(new ViewItem(R.drawable.m03, getString(R.string.m03_desb)));
         list.add(new ViewItem(R.drawable.m04, getString(R.string.m04_desb)));
         list.add(new ViewItem(R.drawable.m05, getString(R.string.m05_desb)));
+        list.add(new ViewItem(R.drawable.m06, getString(R.string.m06_desb)));
+        list.add(new ViewItem(R.drawable.m07, getString(R.string.m07_desb)));
+        list.add(new ViewItem(R.drawable.m08, getString(R.string.m08_desb)));
+        list.add(new ViewItem(R.drawable.m09, getString(R.string.m09_desb)));
+        list.add(new ViewItem(R.drawable.m10, getString(R.string.m10_desb)));
+        list.add(new ViewItem(R.drawable.m11, getString(R.string.m11_desb)));
+        list.add(new ViewItem(R.drawable.m12, getString(R.string.m12_desb)));
+        list.add(new ViewItem(R.drawable.m13, getString(R.string.m13_desb)));
+        list.add(new ViewItem(R.drawable.m14, getString(R.string.m14_desb)));
 
         /* initiate RecyclerView */
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerview);
